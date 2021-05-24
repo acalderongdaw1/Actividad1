@@ -16,6 +16,9 @@ public class CalcularPeriodo {
 		
 		LocalDate fecha3 = LocalDate.of(2010, Month.JUNE, 16);	 
 		System.out.println(calcularPeriodo("El descubrimiento de América", fecha3));
+		
+		LocalDate fecha4 = LocalDate.of(1939, Month.SEPTEMBER, 1);	 
+		System.out.println(calcularPeriodo("El descubrimiento de América", fecha4));
 	}
 	
 	public static String calcularPeriodo(String nombre, LocalDate fecha) {
